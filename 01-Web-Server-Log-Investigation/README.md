@@ -164,7 +164,5 @@ Most importantly, the investigation distinguished **suspicious behavior from con
 - **Repository:** Cybersecurity-SOC-Lab
 - **Section:** 01-Web-Server-Log-Investigation
 - **Lab:** Web Server Log Investigation
-- **Documentation:** `01-Web-Server-Log-Investigation/Documentation/Investigation-Report.md`
-- **Screenshots:** `01-Web-Server-Log-Investigation/Screenshots/`
 - **Status:** Completed
 - **Environment:** Controlled Home Lab
