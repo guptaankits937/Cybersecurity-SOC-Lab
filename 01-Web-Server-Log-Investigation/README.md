@@ -155,3 +155,16 @@ A detailed technical investigation report is maintained in:
 The lab demonstrated a structured investigation workflow combining web server logs, Linux command-line analysis, controlled traffic generation, and network-level evidence.
 
 Most importantly, the investigation distinguished **suspicious behavior from confirmed compromise**, demonstrating evidence-driven SOC analyst reasoning.
+
+
+---
+
+## Repository Information
+
+- **Repository:** Cybersecurity-SOC-Lab
+- **Section:** 01-Web-Server-Log-Investigation
+- **Lab:** Web Server Log Investigation
+- **Documentation:** `01-Web-Server-Log-Investigation/Documentation/Investigation-Report.md`
+- **Screenshots:** `01-Web-Server-Log-Investigation/Screenshots/`
+- **Status:** Completed
+- **Environment:** Controlled Home Lab
