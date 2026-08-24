@@ -1,1 +1,1 @@
-# Microsoft Sentinel SOC Investigation - Lab Journal
+# Microsoft Sentinel SOC Investigation
