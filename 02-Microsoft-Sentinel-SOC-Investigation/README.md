@@ -4,7 +4,7 @@
 
 This project demonstrates a hands-on Microsoft Sentinel SOC investigation using Windows Security Event logs collected from a Windows endpoint.
 
-The lab covers security-event collection, KQL-based log analysis, controlled failed-login simulation, Windows Event ID `4625` investigation, authentication-event correlation, and analyst assessment.
+The investigation focused on security-event collection, KQL-based log analysis, controlled failed-login simulation, Windows Event ID `4625` investigation, authentication-event correlation, and analyst assessment.
 
 The activity was performed in a controlled lab environment and represents hands-on portfolio experience rather than a real production incident.
 
@@ -53,7 +53,7 @@ The objective was to verify event collection, identify failed logons, investigat
 
 ---
 
-## KQL Queries Used
+## Key Queries
 
 ### Verify Windows Security Events
 
@@ -131,33 +131,21 @@ Therefore:
 
 ---
 
-## Evidence / Screenshots
+## Evidence
 
-| #  | Screenshot                                                                                                  |
-| -- | ----------------------------------------------------------------------------------------------------------- |
-| 01 | [Log Analytics Workspace Deployment Success](Screenshots/01-Log-Analytics-Workspace-Deployment-Success.png) |
-| 02 | [Log Analytics Workspace Overview](Screenshots/02-Log-Analytics-Workspace-Overview.png)                     |
-| 03 | [Sentinel Free Trial Activated](Screenshots/03-Sentinel-Free-Trial-Activated.png)                           |
-| 04 | [Windows Security Events Solution Installed](Screenshots/04-Windows-Security-Events-Solution-Installed.png) |
-| 05 | [Azure Arc Onboarding Successful](Screenshots/05-Azure-Arc-Onboarding-Successful.png)                       |
-| 06 | [Azure Arc Machine Connected](Screenshots/06-Azure-Arc-Machine-Connected.png)                               |
-| 07 | [DCR Deployment Success](Screenshots/07-DCR-Deployment-Success.png)                                         |
-| 08 | [Windows Security Events KQL Verification](Screenshots/08-Windows-Security-Events-KQL-Verification.png)     |
-| 09 | [Sentinel Failed Logon Event 4625](Screenshots/09-Sentinel-Failed-Logon-Event-4625.png)                     |
-| 10 | [Sentinel 4625 Failed Logon Investigation](Screenshots/10-Sentinel-4625-Failed-Logon-Investigation.png)     |
-| 11 | [Sentinel 4625 Failed Logon Count](Screenshots/11-Sentinel-4625-Failed-Logon-Count.png)                     |
+Sanitized screenshots documenting the Microsoft Sentinel investigation are available in:
 
-For the complete evidence index:
+[Screenshots/](Screenshots/)
 
-[**View Screenshot Evidence Index**](Screenshots/README.md)
+The evidence set covers the investigation from Log Analytics workspace deployment and Windows endpoint onboarding through Windows Security Event collection, KQL-based Event ID `4625` investigation, and failed-logon count verification.
 
 ---
 
-## Detailed Documentation
+## Detailed Investigation Report
 
-Full investigation details, event analysis, KQL investigation, analyst assessment, false-positive considerations, findings, and conclusion are available in:
+A detailed technical investigation report is maintained in:
 
-[**Microsoft Sentinel SOC Investigation Documentation**](Documentation/Microsoft-Sentinel-SOC-Investigation.md)
+[Documentation/Microsoft-Sentinel-SOC-Investigation.md](Documentation/Microsoft-Sentinel-SOC-Investigation.md)
 
 ---
 
@@ -198,4 +186,3 @@ The Scheduled Analytics Rule and Sentinel incident workflow remain pending due t
 * **Documentation:** `Documentation/Microsoft-Sentinel-SOC-Investigation.md`
 * **Screenshots:** `Screenshots/`
 * **Status:** Investigation Completed – Analytics Rule Pending Due to Portal Redirect Issue
-
